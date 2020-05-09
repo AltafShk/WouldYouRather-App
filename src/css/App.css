@@ -1,0 +1,286 @@
+
+.question {
+	margin: 0 auto;
+  max-width: 350px;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.question-new{
+  margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+
+
+.question-title {
+	border: 1px solid #dddddd;
+	padding: 12px;
+	border-radius: 5px 5px 0px 0px;
+	background: #fafbf9;
+}
+
+.question-body,
+.question-footer {
+	padding: 12px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.question-footer {
+	border-radius: 0px 0px 5px 5px;
+	text-align: center;
+}
+
+.vote-button {
+	border-radius: 5px;
+	width: 100%;
+	padding: 12px;
+	background-color: mediumseagreen;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 0.8em;
+} 
+
+
+
+
+.avatar{
+  width:100px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*-----------------------------------*/
+
+.login-container{
+  text-align: center;
+  background-color: #4CAF50 ;
+  width: 500px;
+  height: 500px;
+  margin-left:auto;  
+  margin-right:auto;
+  margin-top: 100px;
+  
+}
+
+
+
+.would-you-rather-logo img{
+  width: 300px;
+  height: 200px;
+}
+
+.would-you-rather-logo{
+  
+}
+
+
+.select-user{
+  width: 300;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.login-button button{
+  background-color: teal;
+
+}
+
+
+.label-input{
+font-size: 20px;
+margin-left: 10px;
+}
+
+.radio-input{
+  width: 15px;
+height: 15px;
+margin-left: 10px;
+}
+
+.optionsAB{
+font-size: 20px;
+}
+
+.leaderboard-container{
+  background-color: gray;
+  width: 700px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-text{
+  font-size: 30px;
+}
+
+.row-text-total{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.leaderboard-page-background{
+  background-color: papayawhip;
+}
+
+.leaderboard-heading{
+  background-color: papayawhip;
+  font-size: 50px;
+  font-weight: bold;
+ text-align: center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the ps inside the navigation bar */
+.topnav p {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+/* Change the color of ps on hover */
+.topnav p:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+/* Add a color to the active/current p */
+.topnav p.active {
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 10px;
+
+}
+
+
+
+.login-link{
+  float:right;
+  
+}
+
+.logout-link{
+  float:right;
+  
+}
+
+
+.topnav span {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.avatar-login{
+  float: right;
+  margin-top: 17px;
+
+}
+
+
+.filler{
+  background-color: papayawhip;
+  width: 1798px;
+  height: 100px;
+}
+
+
+.login-message{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.nav-icon{
+  margin-bottom: 8px;
+}
+
+.tab {
+  flexGrow: 1,
+}
+
+
+.buttons{
+margin-left: 700px;
+margin-top: 100px;
+}
+
+.qs-note{
+  margin-left: 700px;
+  margin-top: 40px;
+
+}
+
+.qs-list{
+  background-color: papayawhip;
+}
+
+.home-bg{
+  background-color: papayawhip;
+}
+
+.app-bg{
+  background-color: papayawhip;
+  padding: 200px;
+}
+
+
+.login-bg{
+  background-color: papayawhip;
+  padding: 400px;
+  padding-top: 100px;
+}
+
+.qs-view-bg{
+  background-color: papayawhip;
+  padding: 400px;
+  padding-top: 100px;
+}
+
+.login-wyr{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 13px;
+  margin-left: 300px;
+  font-size: 1.8em;
+}
+
+.star{
+  margin-bottom: 5px;
+  width: 20px;
+}
+
+.error-msg{
+  text-align: center;
+  margin-top: 100px;
+  color: red;
+}
+
+.vote-highlight{
+  background-color: goldenrod;
+  width: 90px;
+}
