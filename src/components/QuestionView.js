@@ -59,7 +59,6 @@ class QuestionView extends Component {
         }
 
         if(!Object.keys(questions).includes(id)){
-            console.log('check')
             return(
                 <div>
                     <h1 className ='error-msg'>

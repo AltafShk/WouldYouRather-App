@@ -3,7 +3,8 @@ import {connect} from 'react-redux'
 import {handleInitialData} from '../actions/shared'
 import Home from './Home'
 import LoginPage from './LoginPage'
-import {BrowserRouter as Router, Route } from 'react-router-dom'
+import Error404 from './Error404'
+import {BrowserRouter as Router, Route , Switch} from 'react-router-dom'
 import NewQuestion from './NewQuestion'
 import QuestionView from './QuestionView'
 import LeaderBoard from './Leaderboard'
@@ -36,11 +37,14 @@ class App extends Component {
           ? null
           : <div>
               <Navigation/>
+              <Switch>
               <Route path='/' exact component={LoginPage} />
               <Route path='/home' exact component={Home} />
               <Route path='/add' exact component={NewQuestion} />
               <Route path='/leaderboard' exact component={LeaderBoard} />
               <Route path='/questions/:id' exact component={QuestionView} />
+              <Route component = {Error404}/>
+              </Switch>
             </div> 
           }
         </div>
