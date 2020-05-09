@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/App.css';
 import {formatDate} from '../utils/helpers'
 import {Link} from 'react-router-dom'
+
 
 
 class Question extends Component {
